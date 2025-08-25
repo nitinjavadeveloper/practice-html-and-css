@@ -1,0 +1,43 @@
+.subscribe-btn {
+  background-color: #790808;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 110px;
+  border-radius: 2px;
+}
+.subscribe-btn:hover {
+  background-color: #a50f0f;
+  cursor: pointer;
+}
+
+.join-btn {
+  background-color: aliceblue;
+  color: blue;
+  height: 35px;
+  width: 70px;
+  border-radius: 2px;
+  border: 1px solid blue;
+  margin-left: 8px;
+}
+
+.join-btn:hover {
+  background-color: lab(81.1% -10.02 -24.22);
+  cursor: pointer;
+}
+
+.twitter-btn {
+  background-color: rgb(2, 158, 255);
+  color: wheat;
+  height: 35px;
+  width: 90px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.twitter-btn:hover {
+  background-color: #2c2cd4;
+  color: white;
+  cursor: pointer;
+}
