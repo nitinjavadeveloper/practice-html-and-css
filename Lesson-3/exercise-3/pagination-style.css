@@ -1,0 +1,48 @@
+button {
+  padding: 5px;
+  margin: 10px;
+}
+
+.stretch-btn {
+  background-color: green;
+  color: white;
+  border-radius: 0.5px;
+  padding: 7px;
+}
+
+button.stretch-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 5s ease, color 5s ease;
+}
+
+.shadow-btn {
+  background-color: green;
+  color: white;
+  border-radius: 0.5px;
+  padding: 7px;
+  box-shadow: 3px 10px 10px grey;
+}
+
+.shadow-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  box-shadow: 3px 10px 10px black;
+  transition: background-color 5s ease, color 5s ease;
+}
+
+.margin-btn {
+  background-color: green;
+  color: white;
+  border-radius: 0.5px;
+  padding: 7px;
+  margin-left: 50px;
+}
+.margin-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  margin-left: 100px;
+  transition: background-color 5s ease, color 5s ease, margin-left 5s ease;
+  border-radius: 20px;
+}
